@@ -1,5 +1,6 @@
 # VIKRAM
 
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Screenshot%20from%202021-07-15%2023-33-34.png?raw=true)
 
 This project presents Model Predictive Control as applied to self-balancing action to stabilize
 and drive to the desired location. This project aims at Disaster management and Industrial warehouse
@@ -32,7 +33,7 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 
 ## Mechanical Design
 
-![]()
+
 
 final year project
 https://youtu.be/BAM5CDEWCwI - MPC video
