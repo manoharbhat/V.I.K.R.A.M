@@ -35,6 +35,12 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-iso-mirror.png)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-sideview.JPG)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-tinkercad.png)
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-tinkercad.png)
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-without-arm.JPG)
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20accurate.png)
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20approx.png)
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/flowchart-%20robot%20design.png)
+
 
 
 
