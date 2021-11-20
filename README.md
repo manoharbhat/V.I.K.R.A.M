@@ -14,8 +14,8 @@ project.
 
 ## Table of Contents
 
-1. Introduction
-2. Mechanical Design
+
+1. Mechanical Design
 3. Controller Design
 4. ROS Gazebo
 5. Autonomous Navigation
@@ -29,9 +29,10 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%203.png?raw=true)
  
-## Introduction
 
+## Mechanical Design
 
+![]()
 
 final year project
 https://youtu.be/BAM5CDEWCwI - MPC video
