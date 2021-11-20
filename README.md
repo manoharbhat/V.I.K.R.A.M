@@ -33,7 +33,7 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 
 ## Mechanical Design
 
-
+![](https://github.com/manoharbhat/Images/vikram-isometric.JPG?raw=true)
 
 final year project
 https://youtu.be/BAM5CDEWCwI - MPC video
