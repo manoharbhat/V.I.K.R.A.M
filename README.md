@@ -88,12 +88,6 @@ Our design started with setting up constraints in terms of the payload that it c
 - phase2 SLAM gmapping https://youtu.be/PRGqaiy1gTU?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 
 
-- MPC video https://youtu.be/BAM5CDEWCwI 
-- Vikram Arm https://youtu.be/79NCQto6nX4 
 - Vikram disaster scene https://youtu.be/xwjD3qpYSjc 
-- Vikram video 1https://youtu.be/mgOclu8zkHk
-- Vikram video 2 https://youtu.be/bnivLZTEkTg 
-- Vikram disaster https://youtu.be/bA3Fo9qZsBI 
-- turtlebot https://youtu.be/PRGqaiy1gTU
-- solidworks https://youtu.be/PGw3fngN8Kg 
+- Vikram video 1 https://youtu.be/mgOclu8zkHk
 
