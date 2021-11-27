@@ -35,12 +35,11 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 </p>
 
 <p float="left">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%203.png" width="100" />
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-iso-mirror.png" width="100" /> 
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-front.png" width="100" />
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-iso-mirror.png" width="100%" /> 
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-front.png" width="100%" />
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-iso-back.png" width="100%" />
 </p>
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-iso-back.png)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-isometric.JPG)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc%20octave.gif)
