@@ -53,25 +53,25 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc.gif" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc.gif" width=80% height=50%>
 </p>
 
 ## Execution:
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/main/vikram%20warehouse%20gif.gif" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/main/vikram%20warehouse%20gif.gif" width=80% height=50%>
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/aruco.gif" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/aruco.gif" width=80% height=50%>
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20arm%20gif.gif" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20arm%20gif.gif" width=80% height=50%>
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif" width=80% height=50%>
 </p>
 
 <p align="center">
