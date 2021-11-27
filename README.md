@@ -1,6 +1,6 @@
 # VIKRAM
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Screenshot%20from%202021-07-15%2023-33-34.png?raw=true)
+
 
 
 ## Abstract:
