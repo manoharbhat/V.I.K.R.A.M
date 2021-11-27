@@ -26,16 +26,20 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-tinkercad.png" width=50% height=50%>
 </p>
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%203.png?raw=true)
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-without-arm.JPG" width=50% height=50%>
+</p>
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-iso-mirror.png)
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-sideview.JPG)
-![]()
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-without-arm.JPG)
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20accurate.png)
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-sideview.JPG" width=50% height=50%>
+</p>
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png)
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-front.png)
+<p float="left">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%203.png" width="100" />
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Vikram-iso-mirror.png" width="100" /> 
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-front.png" width="100" />
+</p>
+
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-iso-back.png)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-isometric.JPG)
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif)
@@ -48,7 +52,9 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 <p align="center">
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/aruco.gif" width=50% height=50%>
 </p>
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20accurate.png)
 
+![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png)
 
 
 
