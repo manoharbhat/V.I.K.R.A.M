@@ -19,11 +19,11 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/COM.png" width=50% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc%20octave.gif" width=80% height=50%>
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc%20octave.gif" width=80% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/COM.png" width=50% height=50%>
 </p>
 
 <p align="center">
