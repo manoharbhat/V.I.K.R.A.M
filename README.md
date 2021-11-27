@@ -1,6 +1,10 @@
 # VIKRAM
 
 
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram-isometric.JPG" width=30% height=50%>
+</p>
+
 
 
 ## Abstract:
