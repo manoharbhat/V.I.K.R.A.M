@@ -79,14 +79,13 @@ Our design started with setting up constraints in terms of the payload that it c
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png" width=100% height=50%>
 </p>
 
-
-final year project
-https://youtu.be/BAM5CDEWCwI - MPC video
-https://youtu.be/79NCQto6nX4 - Vikram Arm
-https://youtu.be/xwjD3qpYSjc - Vikram disaster scene
-https://youtu.be/mgOclu8zkHk - Vikram video 1
-https://youtu.be/bnivLZTEkTg - Vikram video 2
-https://youtu.be/bA3Fo9qZsBI - Vikram disaster
-https://youtu.be/PRGqaiy1gTU - turtlebot
-https://youtu.be/PGw3fngN8Kg -  solidworks
+## Video Links
+- MPC video https://youtu.be/BAM5CDEWCwI 
+- Vikram Arm https://youtu.be/79NCQto6nX4 
+- Vikram disaster scene https://youtu.be/xwjD3qpYSjc 
+- Vikram video 1https://youtu.be/mgOclu8zkHk
+- Vikram video 2 https://youtu.be/bnivLZTEkTg 
+- Vikram disaster https://youtu.be/bA3Fo9qZsBI 
+- turtlebot https://youtu.be/PRGqaiy1gTU
+- solidworks https://youtu.be/PGw3fngN8Kg 
 
