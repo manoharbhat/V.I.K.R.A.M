@@ -59,7 +59,8 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 <p align="center">
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20mpc.gif" width=50% height=50%>
 </p>
-## Design:
+
+## Execution:
 
 <p align="center">
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/VIKRAM warehouse gif.gif" width=50% height=50%>
