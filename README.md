@@ -58,26 +58,18 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/aruco.gif" width=50% height=50%>
 </p>
 
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20arm%20gif.gif" width=50% height=50%>
+</p>
 
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/vikram%20arm%20gif.gif)
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif" width=50% height=50%>
+</p>
 
-
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif)
-
-
-
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20accurate.png)
-
-![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png)
-
-
-
-
-
-
-
-## Mechanical Design
-
+<p align="center">
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png" width=100% height=50%>
+</p>
+![]()
 
 
 final year project
