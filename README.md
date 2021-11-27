@@ -9,7 +9,9 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 <p align="center">
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/flowchart-%20robot%20design.png" width=50% height=50%>
 </p>
+
 ## Design:
+
 ![](https://github.com/manoharbhat/VIKRAM/blob/main/Images/design%20approx.png)
 
 
