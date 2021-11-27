@@ -67,17 +67,16 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif" width=80% height=50%>
+  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/main/vikram%20warehouse%20gif.gif" width=80% height=50%>
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/main/vikram%20warehouse%20gif.gif" width=80% height=50%>
+  <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/Disaster.gif" width=80% height=50%>
 </p>
 
 <p align="center">
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png" width=100% height=50%>
 </p>
-![]()
 
 
 final year project
