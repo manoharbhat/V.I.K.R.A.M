@@ -82,9 +82,10 @@ Our design started with setting up constraints in terms of the payload that it c
 ## Demo
 - VIKRAM robot in Industrial warehouse(ROS Gazebo) https://youtu.be/bnivLZTEkTg?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - VIKRAM robot in a Disaster Scenario(ROS Gazebo) https://youtu.be/bA3Fo9qZsBI?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
+- VIKRAM with payload https://youtu.be/mgOclu8zkHk?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - VIKRAM Model Predictive Controller https://youtu.be/BAM5CDEWCwI?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - VIKRAM Robotic Arm Manipulation https://youtu.be/79NCQto6nX4?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - Project October Update https://youtu.be/PGw3fngN8Kg?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - phase2 SLAM gmapping https://youtu.be/PRGqaiy1gTU?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
-- VIKRAM with payload https://youtu.be/mgOclu8zkHk?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
+
 
