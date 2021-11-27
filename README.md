@@ -12,6 +12,7 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 
 
 ## Design:
+Our design started with setting up constraints in terms of the payload that it can carry and the mass of the payload. One of the important features of our robot is, usage of the basket whenever carrying the payload from one location to another which drastically reduces the power consumption in comparison to the method in which the robot is supposed to hold the payload all the time whenever it is navigating.
 
 
 <p align="center">
