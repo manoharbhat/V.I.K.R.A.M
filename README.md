@@ -33,6 +33,8 @@ Natural calamities such as earthquakes, floods lead to frequent casualties. The 
 
 
 
+<img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/aruco.gif" width=50% height=50%>
+
 
 
 
