@@ -68,7 +68,7 @@ Our design started with setting up constraints in terms of the payload that it c
 </p>
 
 <p align="center">
-  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/main/vikram%20warehouse%20gif.gif" width=80% height=50%>
+  <img src="https://github.com/manoharbhat/V.I.K.R.A.M/blob/ecc437822e2d76f2de27fb9d60d20818374d44fc/Images/vikram%20warehouse%20gif.gif" width=80% height=50%>
 </p>
 
 <p align="center">
