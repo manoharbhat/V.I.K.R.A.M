@@ -79,7 +79,8 @@ Our design started with setting up constraints in terms of the payload that it c
   <img src="https://github.com/manoharbhat/VIKRAM/blob/main/Images/journey.png" width=100% height=50%>
 </p>
 
-## Video Links
+## Demo
+- VIKRAM robot in Industrial warehouse(ROS Gazebo) https://youtu.be/bnivLZTEkTg?list=PLCJLvf_Ga3LFS6RMgU82rBr8Yd99Vbt51
 - MPC video https://youtu.be/BAM5CDEWCwI 
 - Vikram Arm https://youtu.be/79NCQto6nX4 
 - Vikram disaster scene https://youtu.be/xwjD3qpYSjc 
