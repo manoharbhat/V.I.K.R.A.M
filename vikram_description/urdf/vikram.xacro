@@ -1,0 +1,657 @@
+<?xml version="1.0" ?>
+<robot name="vikram" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find vikram_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find vikram_description)/urdf/vikram.trans" />
+<xacro:include filename="$(find vikram_description)/urdf/vikram.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.010234443834109541 0.005839078006195386 0.5156054657497448"/>
+    <mass value="7.067521369442045"/>
+    <inertia ixx="0.037702" ixy="-0.000184" ixz="-0.006128" iyy="0.061125" iyz="-4.7e-05" izz="0.069572"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kinect_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.105299 -0.006474 -0.539516"/>
+    <mass value="0.5422411898927701"/>
+    <inertia ixx="0.002787" ixy="1.2e-05" ixz="-1e-06" iyy="0.000223" iyz="-2e-06" izz="0.002879"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.105299 -0.006474 -0.539516"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/kinect_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.105299 -0.006474 -0.539516"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/kinect_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kinect_depth_link"></link>
+
+<link name="camera_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.005985213903832054 4.595539482990865e-06 -5.399212529610953e-05"/>
+    <mass value="0.12265645188988797"/>
+    <inertia ixx="1.3e-05" ixy="0.0" ixz="0.0" iyy="1e-05" iyz="0.0" izz="1.1e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 3.14" xyz="0.202846 -0.004446 -0.521349"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/camera_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.202846 -0.004446 -0.521349"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/camera_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leftthigh_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.07377829422801023 0.04639468168714603 -0.080608614634392"/>
+    <mass value="0.4240185441189414"/>
+    <inertia ixx="0.002324" ixy="-0.000216" ixz="0.001547" iyy="0.003343" iyz="0.000238" izz="0.002039"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.058444 -0.090338 -0.467873"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/leftthigh_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.058444 -0.090338 -0.467873"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/leftthigh_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rightthigh_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.07380773601400971 -0.045398010762963056 -0.0811467726085155"/>
+    <mass value="0.4240185441189414"/>
+    <inertia ixx="0.00232" ixy="0.000201" ixz="0.00155" iyy="0.003348" iyz="-0.000218" izz="0.002037"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.057446 0.079659 -0.467736"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rightthigh_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.057446 0.079659 -0.467736"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rightthigh_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_link_1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-4.118988736685758e-05 0.006740500896890156 -1.1205790919913139e-05"/>
+    <mass value="0.06999823026998438"/>
+    <inertia ixx="3.2e-05" ixy="0.0" ixz="-0.0" iyy="1.1e-05" iyz="-0.0" izz="3.2e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.104626 0.174622 -0.076216"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/motor_link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.104626 0.174622 -0.076216"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/motor_link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor_link_1_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="3.847032894968572e-05 -0.006739958438094273 -2.230950096296369e-05"/>
+    <mass value="0.06999823026998438"/>
+    <inertia ixx="3.2e-05" ixy="0.0" ixz="-0.0" iyy="1.1e-05" iyz="0.0" izz="3.2e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.10744 -0.185367 -0.07736"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/motor_link_1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.10744 -0.185367 -0.07736"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/motor_link_1_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_link_2_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.00011670928409539261 -0.019853226898058435 -1.620426218622295e-05"/>
+    <mass value="0.1426377919274306"/>
+    <inertia ixx="0.000147" ixy="-1e-06" ixz="-0.0" iyy="0.000281" iyz="0.0" izz="0.000147"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.105338 0.201121 -0.069249"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wheel_link_2_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.105338 0.201121 -0.069249"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wheel_link_2_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel_link_2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.00011679030504793686 0.019853386055058042 1.6249222171277333e-05"/>
+    <mass value="0.1426377919274306"/>
+    <inertia ixx="0.000147" ixy="-1e-06" ixz="0.0" iyy="0.000281" iyz="0.0" izz="0.000147"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.107855 -0.211871 -0.070386"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wheel_link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.107855 -0.211871 -0.070386"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wheel_link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="shoulder_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.10535734876012619 0.010445042287466783 0.16921043553877368"/>
+    <mass value="0.3248629426538314"/>
+    <inertia ixx="0.003938" ixy="-5e-06" ixz="-0.002287" iyy="0.005264" iyz="-9e-06" izz="0.001686"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.022298 0.007587 -0.638232"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/shoulder_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.022298 0.007587 -0.638232"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/shoulder_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="elbow_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.16761417274766444 -0.010877496122171239 -0.1315159566827231"/>
+    <mass value="0.14217501750592101"/>
+    <inertia ixx="0.00078" ixy="-6e-06" ixz="-0.000932" iyy="0.001955" iyz="-5e-06" izz="0.001237"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.211852 -0.012739 -0.942825"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/elbow_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.211852 -0.012739 -0.942825"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/elbow_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wrist_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.0003923470619509456 0.003990244802068195 0.01623925564380535"/>
+    <mass value="0.01246916080662524"/>
+    <inertia ixx="4e-06" ixy="-0.0" ixz="0.0" iyy="4e-06" iyz="0.0" izz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.063922 0.002655 -0.726297"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wrist_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.063922 0.002655 -0.726297"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/wrist_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="grip_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.038797787730500036 -0.00019879767110197945 0.0034710253664366197"/>
+    <mass value="0.012180779699964627"/>
+    <inertia ixx="1e-06" ixy="-0.0" ixz="0.0" iyy="3e-06" iyz="-0.0" izz="3e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.050971 -0.001367 -0.7496"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/grip_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.050971 -0.001367 -0.7496"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/grip_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arm_base_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.0057924089638744375 -0.0026408663022563336 0.017228924140837987"/>
+    <mass value="0.3055003056442891"/>
+    <inertia ixx="0.000454" ixy="1e-06" ixz="1.4e-05" iyy="0.000272" iyz="-0.0" izz="0.000597"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.024179 -0.005047 -0.601349"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/arm_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.024179 -0.005047 -0.601349"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/arm_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="cam_support_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.005828672030710191 2.158204139185438e-05 0.01513625495281179"/>
+    <mass value="0.015667625068621845"/>
+    <inertia ixx="9e-06" ixy="0.0" ixz="0.0" iyy="1e-06" iyz="-0.0" izz="8e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.064808 -0.00131 -0.76429"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/cam_support_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.064808 -0.00131 -0.76429"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/cam_support_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="laser_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.013004298288322252 0.00014061093622570742 0.034654362551334805"/>
+    <mass value="0.18084811340421866"/>
+    <inertia ixx="8.4e-05" ixy="-0.0" ixz="-2.2e-05" iyy="0.000131" iyz="0.0" izz="0.000149"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.150117 -0.00648 -0.56718"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/laser_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.150117 -0.00648 -0.56718"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/laser_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="realsense_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.011569393808020176 0.003455662851355681 -0.00044627785563822187"/>
+    <mass value="0.04228675377977692"/>
+    <inertia ixx="2.8e-05" ixy="0.0" ixz="-0.0" iyy="4e-06" iyz="-0.0" izz="2.8e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.062649 -0.00131 -0.779343"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/realsense_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.062649 -0.00131 -0.779343"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/realsense_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_name_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.0009890933495205756 0.0022395089270391064 -0.00026699090220527744"/>
+    <mass value="0.0013045732982823952"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.130614 -0.006427 -0.491711"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/front_name_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.130614 -0.006427 -0.491711"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/front_name_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rightleg_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.11491028875252002 0.0329615808401868 -0.08886658419282911"/>
+    <mass value="0.33293610955358743"/>
+    <inertia ixx="0.001849" ixy="-0.000196" ixz="-0.001976" iyy="0.004214" iyz="-0.000153" izz="0.00286"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.131827 0.173383 -0.260849"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rightleg_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.131827 0.173383 -0.260849"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rightleg_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leftleg_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.11465631046348852 0.045836144527146225 -0.08927904292411595"/>
+    <mass value="0.33293610955358743"/>
+    <inertia ixx="0.001854" ixy="0.000171" ixz="-0.001979" iyy="0.004218" iyz="0.000133" izz="0.002851"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.130161 -0.106612 -0.261054"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/leftleg_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.130161 -0.106612 -0.261054"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/leftleg_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rod_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.00026988223693633073 0.04599902645967602 3.742776667897685e-05"/>
+    <mass value="0.01959163529215445"/>
+    <inertia ixx="2.7e-05" ixy="0.0" ixz="0.0" iyy="0.0" iyz="-0.0" izz="2.7e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.131821 0.172383 -0.260849"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rod_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.131821 0.172383 -0.260849"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rod_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rod_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.0002697620586838423 -0.04599875488781463 -3.672717308494944e-05"/>
+    <mass value="0.01959163529215445"/>
+    <inertia ixx="2.7e-05" ixy="0.0" ixz="0.0" iyy="0.0" iyz="-0.0" izz="2.7e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.129698 -0.18561 -0.261117"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rod_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver_default"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.129698 -0.18561 -0.261117"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/rod_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stand_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.02957327313913402 0.0071788861844907514 -0.15196323108802973"/>
+    <mass value="0.11613787843167664"/>
+    <inertia ixx="0.000586" ixy="-0.0" ixz="7.2e-05" iyy="0.000601" iyz="1e-06" izz="2.6e-05"/>
+  </inertial>
+  
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.130343 -0.075612 -0.261029"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/stand_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stand_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.029653448877985406 -0.00660133573833948 -0.1519739790714708"/>
+    <mass value="0.11613787843167664"/>
+    <inertia ixx="0.000586" ixy="-0.0" ixz="7.2e-05" iyy="0.000601" iyz="1e-06" izz="2.6e-05"/>
+  </inertial>
+  
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.131176 0.062385 -0.260938"/>
+    <geometry>
+      <mesh filename="package://vikram_description/meshes/stand_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid1" type="fixed">
+  <origin rpy="0 0 0" xyz="0.145299 0.006474 0.539516"/>
+  <parent link="base_link"/>
+  <child link="kinect_link_1"/>
+</joint>
+
+<joint name="kinect_joint" type="fixed">
+  <origin xyz="0 0 0" rpy="-1.57 0 -1.57 "/>
+  <parent link="kinect_link_1"/>
+  <child link="kinect_depth_link"/>
+</joint>
+
+<joint name="Rigid3" type="fixed">
+  <origin rpy="0 0 3.14" xyz="-0.022846 0.004446 0.521349"/>
+  <parent link="base_link"/>
+  <child link="camera_link_1"/>
+</joint>
+
+<joint name="thigh_base_left" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.058444 0.090338 0.467873"/>
+  <parent link="base_link"/>
+  <child link="leftthigh_1"/>
+  <axis xyz="-0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="thigh_base_right" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.057446 -0.079659 0.467736"/>
+  <parent link="base_link"/>
+  <child link="rightthigh_1"/>
+  <axis xyz="0.005867 -0.999982 -0.000806"/>
+</joint>
+
+<joint name="Rigid28" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.236453 -0.001239 -0.184633"/>
+  <parent link="rightleg_1"/>
+  <child link="motor_link_1_1"/>
+</joint>
+
+<joint name="Rigid29" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.237601 0.078755 -0.183694"/>
+  <parent link="leftleg_1"/>
+  <child link="motor_link_1_2"/>
+</joint>
+
+<joint name="wheel_right" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.000712 -0.026499 -0.006967"/>
+  <parent link="motor_link_1_1"/>
+  <child link="wheel_link_2_2"/>
+  <axis xyz="0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="wheel_left" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.000415 0.026504 -0.006974"/>
+  <parent link="motor_link_1_2"/>
+  <child link="wheel_link_2_1"/>
+  <axis xyz="0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="shoulder" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.001881 -0.012634 0.036883"/>
+  <parent link="arm_base_1"/>
+  <child link="shoulder_link_1"/>
+  <axis xyz="-0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="elbow" type="fixed">
+  <origin rpy="0 0 0" xyz="0.189554 0.020326 0.304593"/>
+  <parent link="shoulder_link_1"/>
+  <child link="elbow_link_1"/>
+  <axis xyz="0.005867 -0.999982 -0.000806"/>
+</joint>
+
+<joint name="wrist" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.275774 -0.015394 -0.216528"/>
+  <parent link="elbow_link_1"/>
+  <child link="wrist_link_1"/>
+  <axis xyz="-0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="Rigid41" type="fixed">
+  <origin rpy="0 0 0" xyz="0.012951 0.004022 0.023303"/>
+  <parent link="wrist_link_1"/>
+  <child link="grip_link_1"/>
+</joint>
+
+<joint name="arm_base" type="fixed">
+  <origin rpy="0 0 0" xyz="0.024179 0.005047 0.601349"/>
+  <parent link="base_link"/>
+  <child link="arm_base_1"/>
+  <axis xyz="-0.006594 -0.000845 0.999978"/>
+</joint>
+
+<joint name="Rigid43" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.000886 0.003965 0.037993"/>
+  <parent link="wrist_link_1"/>
+  <child link="cam_support_1"/>
+</joint>
+
+<joint name="Rigid46" type="fixed">
+  <origin rpy="0 0 0" xyz="0.150117 0.00648 0.57718"/>
+  <parent link="base_link"/>
+  <child link="laser_link_1"/>
+</joint>
+
+<joint name="Rigid48" type="fixed">
+  <origin rpy="0 0 0" xyz="0.002159 0.0 0.015053"/>
+  <parent link="cam_support_1"/>
+  <child link="realsense_link_1"/>
+</joint>
+
+<joint name="Rigid51" type="fixed">
+  <origin rpy="0 0 0" xyz="0.130614 0.006427 0.491711"/>
+  <parent link="base_link"/>
+  <child link="front_name_1"/>
+</joint>
+
+<joint name="leg_thigh_right" type="fixed">
+  <origin rpy="0 0 0" xyz="0.189273 -0.093724 -0.206887"/>
+  <parent link="rightthigh_1"/>
+  <child link="rightleg_1"/>
+  <axis xyz="-0.005867 0.999982 0.000806"/>
+</joint>
+
+<joint name="leg_thigh_left" type="fixed">
+  <origin rpy="0 0 0" xyz="0.188605 0.016274 -0.206819"/>
+  <parent link="leftthigh_1"/>
+  <child link="leftleg_1"/>
+  <axis xyz="0.005867 -0.999982 -0.000806"/>
+</joint>
+
+<joint name="rod_leg_right" type="fixed">
+  <origin rpy="0 0 0" xyz="-6e-06 0.001 0.0"/>
+  <parent link="rightleg_1"/>
+  <child link="rod_1"/>
+</joint>
+
+<joint name="rod_leg_left" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.000463 0.078998 6.3e-05"/>
+  <parent link="leftleg_1"/>
+  <child link="rod_2"/>
+</joint>
+
+<joint name="stand_rod_left" type="fixed">
+  <origin rpy="0 0 0" xyz="0.000645 -0.109998 -8.8e-05"/>
+  <parent link="rod_2"/>
+  <child link="stand_2"/>
+  <axis xyz="0.005867 -0.999982 -0.000806"/>
+</joint>
+
+<joint name="stand_rod_right" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.000645 0.109998 8.9e-05"/>
+  <parent link="rod_1"/>
+  <child link="stand_1"/>
+  <axis xyz="-0.005867 0.999982 0.000806"/>
+</joint>
+
+</robot>

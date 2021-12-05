@@ -1,0 +1,45 @@
+<launch>
+
+    <!--including the launch file with a navigation world-->
+    <include file="$(find vikram_description)/launch/gazebo.launch" />
+    <!-- including launch file for localization using AMCL -->
+    <include file="$(find vikram_nav)/launch/amcl_demo.launch" />
+     <!-- including launch file for visualizing in rviz -->
+    <include file="$(find vikram_description)/launch/display.launch"/>
+
+    <arg name="map_file" default="$(find vikram_description)/maps/warehouse1.yaml"/>
+
+   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+   <node pkg="tf" type="static_transform_publisher" name="map_to_odom" 
+        args="0 0 0 0 0 0 1 /map /odom 40" />
+   
+
+      <!-- Move base -->
+    <arg name="local_planner" default="dwa" doc="Local planner can be either dwa, base, teb or pose"/>
+    <arg name="with_virtual_walls" default="false" doc="Enables usage of virtual walls when set. Set to false when running SLAM." />
+    <arg name="prefix" default="" doc="Prefix used for robot tf frames" /> <!-- used in the config files -->
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base_node" output="screen" clear_params="true">
+       
+        <rosparam file="$(find vikram_nav)/config/move_base_params.yaml" command="load" />
+        <rosparam file="$(find vikram_nav)/config/$(arg local_planner)_local_planner_params.yaml" command="load" />
+        <!-- global costmap params -->
+        <rosparam file="$(find vikram_nav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" subst_value="true" />
+        <rosparam file="$(find vikram_nav)/config/global_costmap_params.yaml" command="load" />
+     
+        <!-- local costmap params -->
+        <rosparam file="$(find vikram_nav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" subst_value="true" />
+        <rosparam file="$(find vikram_nav)/config/local_costmap_params.yaml" command="load" subst_value="true" />
+        
+ 
+        <remap from="map" to="/map" />
+        <remap from="odom" to="/odom" />
+        <remap from="marker" to="move_base_node/DWALocalPlanner/markers" />
+    </node>
+
+
+
+</launch>
+
+

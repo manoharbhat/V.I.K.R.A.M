@@ -1,0 +1,55 @@
+vikram_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  thigh_base_left_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: thigh_base_left
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  thigh_base_right_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: thigh_base_right
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  wheel_right_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: wheel_right
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  wheel_left_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: wheel_left
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  shoulder_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: shoulder
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  elbow_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: elbow
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  wrist_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: wrist
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  arm_base_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: arm_base
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  leg_thigh_right_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: leg_thigh_right
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  leg_thigh_left_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: leg_thigh_left
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  stand_rod_left_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: stand_rod_left
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  stand_rod_right_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: stand_rod_right
+    pid: {p: 100.0, i: 0.01, d: 10.0}
